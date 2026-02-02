@@ -33,6 +33,13 @@ body {
   font-size: 14px;
 }
 
+.subtitle {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
 #content {
   text-align: left;
 }
