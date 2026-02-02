@@ -8,10 +8,16 @@ body {
   padding: 0;
 }
 
+#wrapper {
+  width: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 #menu {
   float: right;
   margin-top: 30px;
-  margin-right: 20px;
+  margin-right: 0;
   text-align: right;
   width: 150px;
   font-family: 'Jost', sans-serif;
@@ -50,16 +56,21 @@ body {
 }
 
 @media (max-width: 600px) {
+  #wrapper {
+    width: auto;
+    margin: 0 15px;
+  }
+
   #menu {
     float: none;
     text-align: left;
     width: auto;
-    margin: 20px 15px 0 15px;
+    margin: 20px 0 0 0;
   }
 
   #content {
     float: none;
     width: auto;
-    margin: 20px 15px 0 15px;
+    margin: 20px 0 0 0;
   }
 }
