@@ -1,0 +1,65 @@
+body {
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+  width: 150px;
+  font-family: 'Jost', sans-serif;
+}
+
+.title {
+  font-weight: 700;
+}
+
+#content {
+  margin-top: 30px;
+  float: left;
+  width: 500px;
+}
+
+#content h2 {
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+}
+
+#content p,
+#content ul {
+  color: #333;
+  line-height: 18px;
+}
+
+#content li {
+  margin-bottom: 0.7em;
+}
+
+.footer {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+
+@media (max-width: 600px) {
+  #menu {
+    float: none;
+    text-align: left;
+    width: auto;
+    margin: 20px 15px 0 15px;
+  }
+
+  #content {
+    float: none;
+    width: auto;
+    margin: 20px 15px 0 15px;
+  }
+}
