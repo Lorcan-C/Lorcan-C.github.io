@@ -35,7 +35,7 @@ body {
 
 .subtitle {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 4px;
   display: inline-block;
 }
@@ -87,11 +87,10 @@ body {
 
 .contact {
   margin-top: 2em;
-  font-size: 13px;
 }
 
 .footer {
-  font-size: 11px;
+  font-size: 14px;
   color: #4a5a56;
   margin-top: 2em;
   text-align: center;
