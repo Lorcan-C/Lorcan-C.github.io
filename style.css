@@ -3,8 +3,8 @@ body {
   font-feature-settings: "ss01" 1;
   font-size: 14px;
   line-height: 18px;
-  color: #3c3f32;
-  background: #e8eae6;
+  color: #2b3a3a;
+  background: #b4c4be;
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
@@ -17,8 +17,8 @@ body {
 }
 
 #frame {
-  border: 2px solid #3c3f32;
-  outline: 1px solid #3c3f32;
+  border: 2px solid #2b3a3a;
+  outline: 1px solid #2b3a3a;
   outline-offset: 5px;
   padding: 40px 36px 30px;
 }
@@ -31,7 +31,6 @@ body {
 .title {
   font-weight: 700;
   font-size: 14px;
-  text-transform: uppercase;
   letter-spacing: 0.25em;
 }
 
@@ -69,7 +68,7 @@ body {
 
 .footer {
   font-size: 11px;
-  color: #8a8d82;
+  color: #4a5a56;
   margin-top: 2em;
   text-align: center;
 }
